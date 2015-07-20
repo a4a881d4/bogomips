@@ -39,5 +39,6 @@ func Bogomips() (float64, error) {
 func delay(loops uint64) {
 	var i uint64
 	for i = 0; i < loops; i++ {
+		// TODO: any decent optimizer will strip this loop. Fix this.
 	}
 }
